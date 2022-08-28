@@ -1,12 +1,11 @@
 body{
     margin: 0;
-    display: flex;
 }
 
 .header{
     display: flex;
-    justify-content: space-around;
     padding-top: 10px;
+    gap: 22vw;
 }
 
 .header-links{
@@ -29,6 +28,10 @@ header{
 
 .hero{
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
 }
 
 h2{
@@ -41,26 +44,39 @@ h2{
 .first-text{
     color: #E5E7EB;
     font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
-img{
+.image{
     height: 150px;
-    width: 400px;
-    background: url('');
+    width: 350px;
     background-color: gray;
 }
 
 .first{
     margin-top: 30px;
     display: flex;
+    gap: 7vw;
+    padding: 40px;
+    margin-bottom: 30px;
 }
 
 .first-hero{
-    display: flex;
-    flex-direction: column;
-
+    width: 30vw;
 }
 
 button{
     width: 90px;
+    height: 30px;
+    padding: 0;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
 }
+
+/* .body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+} */
