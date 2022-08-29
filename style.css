@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'roboto', sans-serif, serif, monospace;
+    font-family: 'roboto', sans-serif;
 }
 
 .header{
@@ -71,7 +71,7 @@ h2{
     width: 30vw;
 }
 
-button{
+.first-button{
     width: 90px;
     height: 30px;
     padding: 0;
@@ -139,4 +139,38 @@ button{
 .third-text, .third-bold{
     width: 50vw;
     margin: 0;
+}
+
+.fourth{
+    background-color: #3882f6;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 35px 50px;
+    margin: 70px 120px;
+    gap: 10vw;
+    border-radius: 8px;
+}
+
+.fourth-button{
+    height: 30px;
+    width: 90px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
+}
+
+.fourth-t, .fourth-h{
+    margin: 0;
+}
+
+.fourth-h{
+    font-weight: 600;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.fourth-t{
+    color: #E5E7EB;
 }
