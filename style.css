@@ -174,3 +174,12 @@ h2{
 .fourth-t{
     color: #E5E7EB;
 }
+
+footer{
+    background-color: #1f2937;
+    height: 10vh;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
