@@ -18,6 +18,9 @@ body{
 a, ul{
     text-decoration: none;
     list-style: none;
+}
+
+a{
     color: #E5E7EB;
 }
 
@@ -48,9 +51,9 @@ h2{
     margin-bottom: 10px;
 }
 
-.image{
-    height: 150px;
-    width: 350px;
+.first-img{
+    height: 30vh;
+    width: 30vw;
     background-color: gray;
 }
 
@@ -80,3 +83,32 @@ button{
     flex-direction: column;
     align-content: center;
 } */
+
+.second{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.second-img{
+    border-radius: 10px;
+    height: 18vh;
+    width: 10vw;
+    border: 3px solid #3882f6;
+}
+
+.illustrations{
+    display: flex;
+    width: 10vw;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: grey;
+}
